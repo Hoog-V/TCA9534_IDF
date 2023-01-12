@@ -33,7 +33,6 @@ typedef enum {
  */
 typedef struct {
     uint8_t I2C_ADDR;
-    i2c_config_t i2c_conf;
     int i2c_master_port;
     //Only when mode is set to interrupt, otherwise it won't be used..
     gpio_num_t interrupt_pin;
